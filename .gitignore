@@ -1,4 +1,6 @@
-__pycache__/
+# Environment and caches
 .env
-.DS_Store
+.cache/
+__pycache__/
 *.pyc
+.DS_Store
