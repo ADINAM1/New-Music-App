@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <section class="result">
+    <pre id="formatted-sql">{{ formatted_sql }}</pre>
+    <div class="actions">
+      <button id="copy-btn">Copy to clipboard</button>
+      <a href="{{ url_for('download') }}" class="button">Download</a>
+    </div>
+  </section>
+{% endblock %}
